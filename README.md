@@ -16,7 +16,7 @@ A simple and reusable Terraform module to create an AWS S3 bucket with optional 
 
 ## Usage
 
-```hcl
+```
 provider "aws" {
   region = "ap-south-1"
 }
