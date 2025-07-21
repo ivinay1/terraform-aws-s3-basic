@@ -9,8 +9,8 @@ A simple and reusable Terraform module to create an AWS S3 bucket with optional 
 - Create an AWS S3 bucket
 - Optional object versioning (enable/disable)
 - Mergeable custom tags
-- Outputs useful info like bucket ARN, region, and versioning status
-- Designed to be reusable and Terraform Registry-ready
+- Outputs useful info like ARN, region, and versioning status
+- Designed to be reusable and registry-ready
 
 ---
 
@@ -32,4 +32,4 @@ module "s3_bucket" {
     Owner   = "ivinay1"
   }
 }
-```
+
